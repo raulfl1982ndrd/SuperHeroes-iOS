@@ -19,6 +19,7 @@
 		6C91B0762C886BFA00DB53E4 /* SuperHeroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B0752C886BFA00DB53E4 /* SuperHeroViewCell.swift */; };
 		6C91B0782C8870F800DB53E4 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B0772C8870F800DB53E4 /* UIImageViewExtension.swift */; };
 		6CB56FA52C89B7D000DEB842 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB56FA42C89B7D000DEB842 /* DetailViewController.swift */; };
+		6CDDDB612C8B1F48002F3EBF /* UIVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDDDB602C8B1F48002F3EBF /* UIVIewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		6C91B0752C886BFA00DB53E4 /* SuperHeroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewCell.swift; sourceTree = "<group>"; };
 		6C91B0772C8870F800DB53E4 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		6CB56FA42C89B7D000DEB842 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6CDDDB602C8B1F48002F3EBF /* UIVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				6C91B06A2C885F9200DB53E4 /* Constants.swift */,
 				6C91B0772C8870F800DB53E4 /* UIImageViewExtension.swift */,
+				6CDDDB602C8B1F48002F3EBF /* UIVIewExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				6C91B0782C8870F800DB53E4 /* UIImageViewExtension.swift in Sources */,
 				6C91B0562C88546A00DB53E4 /* SceneDelegate.swift in Sources */,
 				6C91B06B2C885F9200DB53E4 /* Constants.swift in Sources */,
+				6CDDDB612C8B1F48002F3EBF /* UIVIewExtension.swift in Sources */,
 				6C91B0732C886B1B00DB53E4 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
