@@ -81,7 +81,7 @@
             <objects>
                 <viewController id="FfR-Le-uCX" customClass="DetailViewController" customModule="SuperHeroes_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1hm-Ij-AdA">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="1667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wI4-xa-9AJ">
@@ -100,7 +100,7 @@
                                         <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gBk-VF-i5t">
-                                        <rect key="frame" x="16" y="296" width="365" height="1234"/>
+                                        <rect key="frame" x="16" y="306" width="365" height="1234"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7e4-kf-zpf">
@@ -112,11 +112,11 @@
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" ambiguous="YES" id="tC9-j4-eZD">
-                                                                <rect key="frame" x="16" y="16" width="334" height="190"/>
+                                                                <rect key="frame" x="16" y="16" width="334" height="203"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="-56" id="MNY-iY-Rqw">
-                                                                        <rect key="frame" x="16" y="-7" width="295" height="200"/>
+                                                                        <rect key="frame" x="22" y="0.0" width="295" height="200"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" id="t3X-ZD-MYM">
@@ -193,18 +193,18 @@
                                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Powerstats:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HJ-Gf-kbm">
-                                                                <rect key="frame" x="16" y="235" width="334" height="30"/>
+                                                                <rect key="frame" x="16" y="230" width="334" height="30"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgs-pA-9bi">
-                                                                <rect key="frame" x="16" y="280" width="334" height="228"/>
+                                                                <rect key="frame" x="16" y="265" width="334" height="248"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" id="bov-lV-sVe">
-                                                                        <rect key="frame" x="16" y="8" width="301" height="212"/>
+                                                                        <rect key="frame" x="22" y="16" width="291" height="212"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="16" id="snu-my-Q8O">
@@ -254,37 +254,37 @@
                                                                                 </subviews>
                                                                             </stackView>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" id="3b3-Qb-lUM">
-                                                                                <rect key="frame" x="91.999999999999986" y="14" width="180.66666666666663" height="184"/>
+                                                                                <rect key="frame" x="91.999999999999986" y="14" width="170.66666666666663" height="184"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                                                                 <subviews>
                                                                                     <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pnT-D9-cFZ" userLabel="IntelligenceProgressView">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="4"/>
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="170.66666666666666" height="4"/>
                                                                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                                                                     </progressView>
                                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9zG-n2-eQC" userLabel="StrengthProgressView">
-                                                                                        <rect key="frame" x="0.0" y="36" width="180.66666666666666" height="4"/>
+                                                                                        <rect key="frame" x="0.0" y="36" width="170.66666666666666" height="4"/>
                                                                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                                                                     </progressView>
                                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tVP-nv-aCb" userLabel="SpeedProgressView">
-                                                                                        <rect key="frame" x="0.0" y="72" width="180.66666666666666" height="4"/>
+                                                                                        <rect key="frame" x="0.0" y="72" width="170.66666666666666" height="4"/>
                                                                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                                                                     </progressView>
                                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tyg-Oc-0iB" userLabel="DurabilityProgressView">
-                                                                                        <rect key="frame" x="0.0" y="108" width="180.66666666666666" height="4"/>
+                                                                                        <rect key="frame" x="0.0" y="108" width="170.66666666666666" height="4"/>
                                                                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                                                                     </progressView>
                                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dMf-ND-gfn" userLabel="PowerProgressView">
-                                                                                        <rect key="frame" x="0.0" y="144" width="180.66666666666666" height="4"/>
+                                                                                        <rect key="frame" x="0.0" y="144" width="170.66666666666666" height="4"/>
                                                                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                                                                     </progressView>
                                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qk9-vh-WYa" userLabel="CombatProgressView">
-                                                                                        <rect key="frame" x="0.0" y="180" width="180.66666666666666" height="4"/>
+                                                                                        <rect key="frame" x="0.0" y="180" width="170.66666666666666" height="4"/>
                                                                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                                                                     </progressView>
                                                                                 </subviews>
                                                                             </stackView>
                                                                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="bottom" spacing="16" id="559-Nj-0nJ">
-                                                                                <rect key="frame" x="272.66666666666669" y="5" width="28.333333333333314" height="202"/>
+                                                                                <rect key="frame" x="262.66666666666669" y="5" width="28.333333333333314" height="202"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Kp-vv-RgR" userLabel="IntelligenceStat">
@@ -369,7 +369,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="deD-Pb-Qkv"/>
-                    <size key="freeformSize" width="393" height="1667"/>
                     <connections>
                         <outlet property="CombatProgressView" destination="qk9-vh-WYa" id="PCJ-7L-cr3"/>
                         <outlet property="CombatStat" destination="B8d-qd-ESl" id="4fz-kX-n8U"/>
@@ -397,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQg-1v-ePW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1959.5419847328244" y="286.26760563380282"/>
+            <point key="canvasLocation" x="1959.5419847328244" y="423.23943661971833"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bEm-Q7-90Q">
