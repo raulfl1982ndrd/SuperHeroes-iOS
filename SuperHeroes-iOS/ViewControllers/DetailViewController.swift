@@ -42,10 +42,13 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIView!
     @IBOutlet weak var stackView: UIView!
     @IBOutlet weak var stackViewPowerStats: UIView!
+    
+    @IBOutlet weak var DataView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //scrollView.roundCorners(radius: 8)
+        DataView.roundCorners(radius: 16)
         stackView.roundCorners(radius: 16)
         stackViewPowerStats.roundCorners(radius: 16)
         // Do any additional setup after loading the view.
