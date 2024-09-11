@@ -24,6 +24,7 @@ class ListViewController: UIViewController, UITableViewDataSource,UISearchBarDel
         tableView.dataSource = self
 
         searchSuperHeroes("a")
+        configureRefreshControl()
     }
     // MARK: TableView Delegate & DataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,6 +41,18 @@ class ListViewController: UIViewController, UITableViewDataSource,UISearchBarDel
         
         return cell
     }
+    // MARK: Pull to refresh
+    
+    func configureRefreshControl(){
+        // Add the
+        tableView.refreshControl = UIRefreshControl()
+        tableView?.refreshControl?.addTarget(self, action: #selector(handleredfreshController), for: .valueChanged)
+    }
+    
+    @objc func handleredfreshController(){
+        searchSuperHeroes("a")
+    }
+    
     
     // MARK: SearchBar Delegate
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -89,10 +102,15 @@ class ListViewController: UIViewController, UITableViewDataSource,UISearchBarDel
 
         Task {
             let results = try? await SuperHeroProvider.findSuperHeroesByName(query)
-
-            self.superHeroList = results!
+            if let results = results{
+                self.superHeroList = results
+            }else{
+                self.superHeroList = []
+            }
             DispatchQueue.main.async {
                 self.tableView.reloadData()
+                // Dismiss the refreshControl
+                self.tableView.refreshControl?.endRefreshing()
             }
         }
         
