@@ -5,20 +5,16 @@
 //  Created by Mañanas on 4/9/24.
 //
 import UIKit
-class ListViewController: UIViewController, UITableViewDataSource,UISearchBarDelegate,UISearchControllerDelegate {
+class SearchBarViewController: UIViewController, UITableViewDataSource {
     
     // MARK: Outlets
+    
     @IBOutlet weak var tableView: UITableView!
     
     var superHeroList: [SuperHero] = []
     // MARK: LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Setup SearchBar
-        let search = UISearchController(searchResultsController: nil)//SearchBarViewController()
-        search.delegate = self
-        search.searchBar.delegate = self
-        self.navigationItem.searchController = search
         // Do any additional setup after loading the view.
         //Setup TableView
         tableView.dataSource = self
@@ -33,7 +29,7 @@ class ListViewController: UIViewController, UITableViewDataSource,UISearchBarDel
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SuperHeroViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "searchcell", for: indexPath) as! SearchTableViewCell
         
         let superHero = superHeroList[indexPath.row]
         
@@ -52,28 +48,6 @@ class ListViewController: UIViewController, UITableViewDataSource,UISearchBarDel
     @objc func handleredfreshController(){
         searchSuperHeroes("a")
     }
-    
-    
-    // MARK: SearchBar Delegate
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        print("He pulsado Buscar")
-        searchSuperHeroes(searchBar.text!)
-    }
-    
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        print("He pulsado Cancelar")
-        searchSuperHeroes("a")
-    }
-    
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("He escrito \(searchText)")
-        
-        if(searchText.isEmpty){
-            searchSuperHeroes("a")
-        }
-        
-    }
-    
     
     // MARK: Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

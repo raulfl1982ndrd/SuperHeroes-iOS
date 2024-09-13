@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Speed:"; ObjectID = "2nO-bR-eOZ"; */
+"2nO-bR-eOZ.text" = "Speed:";
+
+/* Class = "UILabel"; text = "Information:"; ObjectID = "4HJ-Gf-kbm"; */
+"4HJ-Gf-kbm.text" = "Information:";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "5Kp-vv-RgR"; */
+"5Kp-vv-RgR.text" = "100";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5kJ-UE-i58"; */
+"5kJ-UE-i58.text" = "Label";
+
+/* Class = "UILabel"; text = "Alignment:"; ObjectID = "6CF-31-EOI"; */
+"6CF-31-EOI.text" = "Alignment:";
+
+/* Class = "UINavigationItem"; title = "Superheroes"; ObjectID = "8ib-J8-h2d"; */
+"8ib-J8-h2d.title" = "Superheroes";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "9Tn-ny-TJ9"; */
+"9Tn-ny-TJ9.text" = "100";
+
+/* Class = "UILabel"; text = "Power:"; ObjectID = "A49-xW-pEr"; */
+"A49-xW-pEr.text" = "Power:";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "B8d-qd-ESl"; */
+"B8d-qd-ESl.text" = "100";
+
+/* Class = "UILabel"; text = "Strength:"; ObjectID = "NrP-nd-MEd"; */
+"NrP-nd-MEd.text" = "Strength:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OMa-NF-h9T"; */
+"OMa-NF-h9T.text" = "Label";
+
+/* Class = "UILabel"; text = "Publisher Label"; ObjectID = "Q7h-oy-jU9"; */
+"Q7h-oy-jU9.text" = "Publisher Label";
+
+/* Class = "UILabel"; text = "Real Name Label"; ObjectID = "QTL-tE-h6I"; */
+"QTL-tE-h6I.text" = "Real Name Label";
+
+/* Class = "UILabel"; text = "Powerstats:"; ObjectID = "V9c-LL-QL2"; */
+"V9c-LL-QL2.text" = "Powerstats:";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "apw-T2-NVo"; */
+"apw-T2-NVo.text" = "100";
+
+/* Class = "UILabel"; text = "Durability:"; ObjectID = "dpl-me-cKP"; */
+"dpl-me-cKP.text" = "Durability:";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "e07-bW-N2L"; */
+"e07-bW-N2L.text" = "100";
+
+/* Class = "UILabel"; text = "Publisher:"; ObjectID = "feQ-1f-mfD"; */
+"feQ-1f-mfD.text" = "Publisher:";
+
+/* Class = "UILabel"; text = "Intelligence:"; ObjectID = "fmP-EL-USA"; */
+"fmP-EL-USA.text" = "Intelligence:";
+
+/* Class = "UILabel"; text = "Place Of Birth:"; ObjectID = "ldy-a5-eba"; */
+"ldy-a5-eba.text" = "Place Of Birth:";
+
+/* Class = "UILabel"; text = "Alignment Label"; ObjectID = "ne0-QJ-z8A"; */
+"ne0-QJ-z8A.text" = "Alignment Label";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "pe0-Q3-fN6"; */
+"pe0-Q3-fN6.text" = "100";
+
+/* Class = "UILabel"; text = "Real Name:"; ObjectID = "ste-I3-mEs"; */
+"ste-I3-mEs.text" = "Real Name:";
+
+/* Class = "UILabel"; text = "Place Of Birth Label"; ObjectID = "vkr-Ey-aaF"; */
+"vkr-Ey-aaF.text" = "Place Of Birth Label";
+
+/* Class = "UILabel"; text = "Combat:"; ObjectID = "xKN-em-9o4"; */
+"xKN-em-9o4.text" = "Combat:";

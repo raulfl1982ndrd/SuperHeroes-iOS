@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import DGCharts
+import WebKit
 
 class DetailViewController: UIViewController {
     
@@ -42,9 +44,14 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIView!
     @IBOutlet weak var stackView: UIView!
     @IBOutlet weak var stackViewPowerStats: UIView!
+    @IBOutlet weak var chartView: RadarChartView!
+
+    @IBOutlet weak var webKitView: WKWebView!
     
     @IBOutlet weak var DataView: UIView!
     
+    @IBOutlet weak var welcomeSolo: UILabel!
+    @IBOutlet weak var welcome: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -80,6 +87,19 @@ class DetailViewController: UIViewController {
             PowerProgressView.progress = (Float(superHero.powerstats.power) ?? 0.0) / 100.0
             CombatStat.text = superHero.powerstats.combat
             CombatProgressView.progress = (Float(superHero.powerstats.combat) ?? 0.0) / 100.0
+            
+            let link = URL(string: "https://www.google.com")!
+            let request = URLRequest(url: link)
+            webKitView.load(request)
+            
+            
+            let name = "Mansour"
+            let name2 = "BM"
+            
+            
+            //8ib-J8-h2d.title.text = String(localized: "SUPERHEROES", table "Main")
+            welcome.text = String(localized: "super\(name)\(name2)", table: "Main")
+            welcomeSolo.text = String(localized: "Solo",table: "Main" )
             // ...
         }
     }
